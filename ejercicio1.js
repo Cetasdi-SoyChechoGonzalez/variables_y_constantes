@@ -1,8 +1,4 @@
-/* Escribe un programa que le pida al usuario ingresar su nombre e imprimirlo en la consola.
-Recuerda que para pedirle al usuario un dato debes utilizar el método `prompt()`
- y para escribir en la consola debes utilizar el método `console.log()`.
- */
+/* Defina una variable llamada nombre y asigne su nombre, luego imprima el nombre en la consola*/
 
-let nombre = prompt("Ingrese su nombre");
-
+let nombre = "Sergio";
 console.log(nombre);

@@ -1,7 +1,8 @@
-/* Escribe un programa que le pregunte al usuario su nombre e imprima "Hola " seguido del nombre 
-y un signo de exclamación.
-Por ejemplo si el usuario ingresa "Pedro" el programa debe imprimir en la consola "Hola Pedro!". */
+/* Defina una variable llamada `nombre` y asigne su nombre
 
-let nombre = prompt("Escriba su nombre:");
+Debe imprimir en la consola Hola,  seguido del nombre y un signo de exclamación. Debe usar `template literals`.
 
-console.log("Hola, " + nombre + "!");
+Por ejemplo si el usuario ingresa "Pedro" el programa debe imprimir en la consola "Hola, Pedro!". */
+
+let nombre = "Sergio";
+console.log(`Hola ${nombre}!`);

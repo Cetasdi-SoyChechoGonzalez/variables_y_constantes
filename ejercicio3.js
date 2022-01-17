@@ -1,8 +1,6 @@
-/* Escribe un programa que le pida al usuario ingresar un número, 
-luego le debe pedir un segundo número e imprima en la consola la suma de ambos números que ingresó el usuario. */
-
-let numero1 = parseInt(prompt("Ingrese primer número: "));
-let numero2 = parseInt(prompt("Ingrese segundo número: "));
+/* Declare y asigne valor a una variable llamada numero1 y numero2 e imprima en la consola la suma de ambos números. */
+let numero1 = 5;
+let numero2 = 10;
 
 let suma = numero1 + numero2;
 

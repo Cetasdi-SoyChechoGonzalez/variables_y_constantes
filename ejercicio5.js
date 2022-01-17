@@ -1,19 +1,15 @@
-/* El índice de masa corporal (IMC), o BMI por sus siglas en inglés, es un valor que determina la 
-cantidad de grasa de una persona.
+/* El índice de masa corporal (IMC), o BMI por sus siglas en inglés, es un valor que determina la cantidad de grasa de una persona.
 
 El BMI se calcula con la siguiente formula:
 
-`peso / altura^2` = `peso / altura al cuadrado`
+`peso / altura**2` = `peso / altura al cuadrado`
 
-Escribe un programa que le pida al usuario su peso en Kg y su altura en metros para calcular su IMC e imprima la frase 
-"Tu IMC es X".
+Declara y asigna las variables `peso`y `altura` para calcular el IMC e imprima la frase "Tu IMC es X".
 
-Por ejemplo, si el usuario ingresa 80Kg de peso y 175cm de altura el programa debe imprimir en la consola la frase
- "Tu IMC es Tu IMC es: 26.122448979591837". */
+Por ejemplo, si el usuario ingresa 65kg de peso y 1.80m de altura el programa debe imprimir en la consola la frase "Tu IMC es 20.061728395061728". */
 
-let peso = parseInt(prompt("Ingrese su peso en Kg"));
-let altura = parseFloat(prompt("Ingrese su altura en metros"));
+let peso = 65;
+let altura = 1.8;
 
-let imc = peso / (altura * altura);
-
-console.log("Tu IMC es: " + imc);
+let imc = peso / altura ** 2;
+console.log(`Tu IMC es ${imc}`);
